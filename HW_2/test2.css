@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(187, 218, 207);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: green;
+}
+
+.title,
+.desc,
+.subtitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: darkviolet;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border: 1px solid darkviolet;
+    color: darkviolet;
+    background-color: white;
+}
+
+.item {
+    width: 263px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.item-picture {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+}
+
+.item-box {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item-link {
+    padding: 5px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.item-description {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    color: black(7, 11, 15);
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.item-photo {
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
